@@ -1,0 +1,23 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Local data and build artifacts
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+*.tsbuildinfo
+*.egg-info/
+.DS_Store
+.cache/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm

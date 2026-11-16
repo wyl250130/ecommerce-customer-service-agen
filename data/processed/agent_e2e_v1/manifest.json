@@ -1,0 +1,31 @@
+{
+  "by_manual": {
+    "MANUAL-COTTON-SWAB-001": 1,
+    "MANUAL-COTTON-WIPE-001": 18,
+    "MANUAL-DRIED-FRUIT-001": 8,
+    "MANUAL-NUTS-001": 14,
+    "MANUAL-PAPER-TISSUE-001": 2,
+    "MANUAL-RICE-PASTRY-001": 6,
+    "MANUAL-TEA-TOOL-001": 2,
+    "MANUAL-TEA-TRAY-001": 1
+  },
+  "counts": {
+    "demo": 1,
+    "distinct_legacy_manuals": 8,
+    "scenarios": 52,
+    "train": 51
+  },
+  "limitations": [
+    "synthetic facts, not real commerce events",
+    "category-level manuals, not SKU-specific manufacturer manuals",
+    "reference responses are generated factual checks, not model outputs or human Gold"
+  ],
+  "scenarios_sha256": "59f2512d79f8566fdba7cb95a1f6528e8332462a8870958bed353d76b722c282",
+  "source_sha256": {
+    "demo_sqlite": "580a2b45340c35c924e61df46e9172b96dc8217c5e8305319481b2325116bbc2",
+    "train_sqlite": "39fa5f3900298e1eb2eba0fcb7efa493a1f1ebf539b6944f78c9fabaf459cd71",
+    "unified_bindings": "5203f125c6181271b79019930ff9dfb3f4add4b64b7d1f50e88804643876268f",
+    "unified_chunks": "1b0e86573b15094a1bffbec5e301f9dc8b0127cc2bc68312e91c1f5f3ee83e42"
+  },
+  "version": "agent_e2e_same_snapshot_v1"
+}

@@ -1,0 +1,15 @@
+{
+  "frozen_manual_sha256": "b8a469b78e552262e6ff194c2348310434d9a18256fd5be7f76f25686633ffcf",
+  "manual_id": "MANUAL-BABY-COTTON-SWAB-551-V1",
+  "order_id": "E2E-MANUAL-551-001",
+  "path": "/Users/elaine/Desktop/project_I/customer-service/data/processed/customer_service/customer_service_agent_full_chain.sqlite",
+  "product_id": "BABY-COTTON-SWAB-551",
+  "question": "查询订单 E2E-MANUAL-551-001：发货了吗？购买的商品如何安全用于耳部清洁？",
+  "reference_response": "模拟订单 E2E-MANUAL-551-001 已付款、未发货，关联商品是婴儿细轴棉签。该商品的模拟说明书只允许轻柔清洁看得见的外耳廓部位，不得将棉签伸入耳道。",
+  "sku_id": "FINE-TIP",
+  "snapshot_id": "GOLD-SNAP-SEMANTIC-GOLD-TRAIN-000551",
+  "source_sha256": "39fa5f3900298e1eb2eba0fcb7efa493a1f1ebf539b6944f78c9fabaf459cd71",
+  "synthetic_fields": [
+    "orders.*"
+  ]
+}

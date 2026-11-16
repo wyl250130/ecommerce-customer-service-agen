@@ -1,0 +1,7 @@
+# Reproducible BGE baseline environment used on macOS arm64.
+# Existing environment also contained scikit-learn 1.7.2 and scipy 1.15.3.
+numpy==1.26.4
+torch==2.1.0
+transformers==4.46.3
+sentence-transformers==3.4.1
+tokenizers==0.20.3

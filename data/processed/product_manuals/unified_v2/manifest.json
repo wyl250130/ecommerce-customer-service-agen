@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "bindings": 245,
+    "chunks": 104,
+    "human_queries": 800,
+    "manuals": 16,
+    "product_fact_cards": 334,
+    "unique_binding_keys": 239
+  },
+  "note": "Synthetic research data. Old category and frozen product manuals remain distinct; product fact cards are not manuals.",
+  "output_sha256": {
+    "bindings.jsonl": "5203f125c6181271b79019930ff9dfb3f4add4b64b7d1f50e88804643876268f",
+    "chunks.jsonl": "1b0e86573b15094a1bffbec5e301f9dc8b0127cc2bc68312e91c1f5f3ee83e42",
+    "human_queries.jsonl": "2d14116ca0765ad69fc4b440081b550e28dde87109bc7b99ef33457a15c39b07",
+    "manuals.jsonl": "acfec4c48008b8e2890a85e5080345cf571fb222cce57b71ea482a4d2bf25506",
+    "product_fact_cards.jsonl": "ab247875e6597ed3ba64ee86e6d3d1d5ed446c75250524d16fa1cfb592358502"
+  },
+  "source_counts": {
+    "frozen_bindings": 8,
+    "frozen_manuals": 8,
+    "legacy_bindings": 236,
+    "legacy_manuals": 8,
+    "verified_derived_bindings": 1
+  },
+  "source_files": {
+    "frozen_chunks": {
+      "path": "data/processed/product_manuals/frozen_v1/product_manual_chunks_frozen_v1.jsonl",
+      "sha256": "3d2c5585088d355cd75120a03888a20709fce4f087ac03b6a6cf52891756500a"
+    },
+    "frozen_manuals": {
+      "path": "data/processed/product_manuals/frozen_v1/product_manuals_frozen_v1.jsonl",
+      "sha256": "b8a469b78e552262e6ff194c2348310434d9a18256fd5be7f76f25686633ffcf"
+    },
+    "human_queries": {
+      "path": "data/processed/retriever_eval/manual_v1_handwritten_v2_compiled.jsonl",
+      "sha256": "5ff9cd7c476127ddcb9a9ea23ca45fe304b67e13cdef5ddff0067c520f32b27b"
+    },
+    "legacy_sqlite": {
+      "path": "data/processed/customer_service/customer_service_train.sqlite",
+      "sha256": "39fa5f3900298e1eb2eba0fcb7efa493a1f1ebf539b6944f78c9fabaf459cd71"
+    }
+  },
+  "version": "unified_manual_corpus_v2"
+}

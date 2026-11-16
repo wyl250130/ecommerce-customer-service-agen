@@ -1,0 +1,14 @@
+{
+  "chunks_file": "product_manual_chunks_frozen_v1.jsonl",
+  "corpus_sha256": "c9f5b6ebfb13f753a7d548f350ffbd007221c3f055fa2e1ff7a605c7795d2fe7",
+  "dataset": "product_manuals_frozen_v1",
+  "frozen_at": "2026-09-20",
+  "manual_count": 8,
+  "manuals_file": "product_manuals_frozen_v1.jsonl",
+  "mutation_policy": "Never edit frozen_v1 in place. Corrections require a new version and explicit change log.",
+  "question_generation_policy": "Questions must be generated only after this manifest exists and must record corpus_sha256.",
+  "section_chunk_count": 48,
+  "source_gold": "data/processed/gold_sft/final_semantic_v3_consistency/all_sft_gold.jsonl",
+  "status": "frozen",
+  "version": "1.0.0"
+}

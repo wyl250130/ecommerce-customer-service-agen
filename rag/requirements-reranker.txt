@@ -1,0 +1,6 @@
+# Compatible with the existing transformer_env310 used for the BGE baseline.
+numpy==1.26.4
+torch==2.1.0
+transformers==4.46.3
+tokenizers==0.20.3
+scikit-learn==1.7.2
